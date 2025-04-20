@@ -4,7 +4,7 @@ const antiforeign = process.env.ANTIFOREIGN || 'TRUE';
 const autobio = process.env.AUTOBIO || 'TRUE';
 const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
 const anticall = process.env.AUTOREJECT_CALL || 'TRUE';
-let botname = process.env.BOTNAME || '𝙋𝙀𝙍𝙀𝙕-𝙈𝘿';
+let botname = process.env.BOTNAME || 'WHITTAKER -𝙈𝘿';
 
 const {
   default: perezConnect,
