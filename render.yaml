@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name:Whittaker-Md
+    env: node
+    repo: https://github.com/M-boop-dt/Perez.git
+    branch: main
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: PORT
+        value: 10000
+      - key: BOT_NAME
+        value: Whittaker-md
