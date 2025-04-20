@@ -65,7 +65,7 @@
  "AUTO_REJECT_CALL": {
       "description": "Input TRUE if you want bot to automatically decline incoming calls",
       "required": false
- };
+ },
  "WA_PRESENCE": {
       "description": "Input either recording or typing. This enables bot to simulate typing or recording.",
       "required": false
