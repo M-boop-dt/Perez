@@ -16,7 +16,7 @@
   ],
   "website": "https://github.com/Ignatiusperez/Perez#readme",
   "repository": "https://github.com/Ignatiusperez/Perez/",
-  "logo": "https://i.imgur.com/de7YHk9.jpeg",
+  "logo": "https://files.catbox.moe/0uzc42.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
@@ -59,9 +59,13 @@
       "required": true
 },
  "AUTOVIEW": {
-      "description": "Input true if you want bot to automatically read status update",
+      "description": "Input TRUE if you want bot to automatically read status update",
       "required": false
 },
+ "AUTO_REJECT_CALL": {
+      "description": "Input TRUE if you want bot to automatically decline incoming calls",
+      "required": false
+ };
  "WA_PRESENCE": {
       "description": "Input either recording or typing. This enables bot to simulate typing or recording.",
       "required": false
