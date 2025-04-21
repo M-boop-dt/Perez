@@ -47,7 +47,7 @@ module.exports = Perez = async (client, m, chatUpdate, store) => {
 	  var msgDreaded = m.message.extendedTextMessage?.contextInfo?.quotedMessage;
 	  
    // leave the prefix string empty if you don't want the bot to use a prefix
-  const prefix = process.env.PREFIX || '';
+  const prefix = process.env.PREFIX || '!';
 const Heroku = require("heroku-client");  
  const appname = process.env.APP_NAME || '';
  const herokuapi = process.env.HEROKU_API;
